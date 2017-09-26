@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Frijole');
+
+
+body {
+  background-image: url(../img/fievel.jpg);
+}
+
+label {
+  font-size: 20px;
+  background-color: yellow;
+}
+
+.jumbotron {
+  background-color: yellow;
+  color: brown;
+  font-family: 'Frijole', cursive;
+  text-align: center;
+}
+
+.btn {
+  background-color: purple;
+  color: yellow;
+}
+
+.btn:hover {
+  background-color: black;
+  color: orange;
+}
+
+#well-output {
+  display: none;
+  font-size: 30pt;
+  text-align: center;
+}

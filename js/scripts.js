@@ -43,6 +43,7 @@ $(document).ready(function() {
       alert("Sorry, you are not old enough to purchase this ticket. Fievel will be your friend, not the murderers.")
       } else {
         $(".output").text("Your ticket for " + movieTicket.movieTitle + " at " + movieTicket.movieTime + " is $" + (movieTicket.ticketPrice() - movieTicket.matineeDiscount()));
+        $("#well-output").show();
       }
 
   });

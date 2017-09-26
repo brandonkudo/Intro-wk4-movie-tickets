@@ -15,30 +15,34 @@
       </div>
 
       <form id="formOne">
-        <div class="form-group">
-          <label for="movieInput">Select one of the BEST movies:</label>
-          <select class="form-control" id="movieInput">
-            <option>Fievel Goes West</option>
-            <option>An American Tail</option>
-            <option>Halloween H2O</option>
-          </select>
+        <div class="well">
+          <div class="form-group">
+            <label for="movieInput"><span class="glyphicon glyphicon-play" aria-hidden="true"></span>Select one of the BEST movies:</label>
+            <select class="form-control" id="movieInput">
+              <option>Fievel Goes West</option>
+              <option>An American Tail</option>
+              <option>Halloween H2O</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="ageInput"><span class="glyphicon glyphicon-hourglass" aria-hidden="true"></span>Enter your age:<span class="glyphicon glyphicon-baby-formula" aria-hidden="true"></span></label>
+            <input id="ageInput" type="number" required>
+          </div>
+          <div class="form-group">
+            <label for="timeInput"><span class="glyphicon glyphicon-time" aria-hidden="true"></span> Select the movie showing:</label>
+            <select class="form-control" id="timeInput">
+              <option>11:30 am</option>
+              <option>3:30 pm</option>
+              <option>7:15 pm</option>
+            </select>
+          </div>
+          <button class="btn btn-lg" type="submit">Submit</button>
         </div>
-        <div class="form-group">
-          <label for="ageInput">Enter your age:</label>
-          <input id="ageInput" type="number" required>
-        </div>
-        <div class="form-group">
-          <label for="timeInput">Select the movie showing:</label>
-          <select class="form-control" id="timeInput">
-            <option>11:30 am</option>
-            <option>3:30 pm</option>
-            <option>7:15 pm</option>
-          </select>
-        </div>
-        <button class="btn" type="submit">Submit</button>
       </form>
 
-      <div class="output">
+      <div class="well" id="well-output">
+        <div class="output">
+        </div>
       </div>
 
     </div>
